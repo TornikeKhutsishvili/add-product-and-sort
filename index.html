@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="form-group col-md-9 m-auto">
+        <input type="text" class="form-control mt-2 pname" placeholder="Product name">
+        <input type="text" class="form-control mt-2 description" placeholder="Description">
+        <input type="text" class="form-control mt-2 price" placeholder="Price">
+        <input type="date" class="form-control mt-2 rdate">
+        <input type="date" class="form-control mt-2 duration">
+        <select class="form-select mt-2 category">
+          <option value="">Choose category</option>
+          <option value="drink">Drink</option>
+          <option value="food">Food</option>
+        </select>
+        <button class="save col-md-6 d-block m-auto mt-2 btn btn-primary">Save</button>
+      </div>
+
+      <div class="from-group col-md-9 m-auto mt-2 mb-5">
+         <label for="">Filter By Category:</label>
+         <select class="filterCategory form-select mt-2">
+          <option value="categorychoose" value="choosecateg">Choose category</option>
+          <option value="drink" value="drinkcateg">Drink</option>
+          <option value="food" value="foodcateg">Food</option>
+         </select>
+      </div>
+
+      <div class="form-group col-md-9 m-auto mt-2 mb-5">
+        <label >Sort By:</label>
+        <select class="form-select mt-2 filterselect">
+          <option value="filterchoose">Choose Sorting Type</option>
+          <option class="relaseasc" value="relaseasc">Relase Date ascending</option>
+          <option class="relasedesc" value="relasedesc">Relase Date descending</option>
+          <option class="endasc" value="endasc">End Date ascending</option>
+          <option class="enddesc" value="enddesc">End Date descending</option>
+          <option class="priceasc" value="priceasc">Price ascending</option>
+          <option class="pricedesc" value="pricedesc">Price descending</option>
+        </select>
+      </div>
+      <table class="tb">
+  
+      </table>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
